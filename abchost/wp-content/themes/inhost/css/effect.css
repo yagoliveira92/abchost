@@ -1,0 +1,111 @@
+.waypoints .iw-heading,
+.waypoints .why-choose .cta-banner,
+.waypoints .our-pre-clients .client-images a,
+.waypoints .our-pre-clients .testi-content,
+.waypoints .our-pre-clients .testi-client,
+.waypoints .expertise-in .vc_single_image-img,
+.waypoints .see-plans,
+.waypoints .compare-plan,
+.waypoints .pricebox,
+.waypoints .iw-posts-item,
+.waypoints .cta-banner .cta-desc,
+.waypoints .cta-banner .cta-btn,
+.waypoints .plan-sub-text,
+.waypoints .dg-container,
+.waypoints .iw-testimonial-item .testi-text-content,
+.waypoints .iw-testimonial-item .testi-client,
+.waypoints .iw-testimonial-item .testi-content,
+.waypoints .iw-testimonial-item .testi-image-icon,
+.waypoints .trusted-loved img,
+.waypoints .simple-list li,
+.waypoints .info-item .icon,
+.waypoints .info-item .icon_img,
+.waypoints .info-item .info-item-icon,
+.waypoints .info-item .info-item-title,
+.waypoints .info-item .info-item-desc,
+.waypoints .block-image-left .ibutton,
+.waypoints .block-image-left .vc_single_image-img,
+.waypoints .block-image-left .skillbar_wap,
+.waypoints .block-image-right .ibutton,
+.waypoints .block-image-right .vc_single_image-img,
+.waypoints .block-content-center .vc_single_image-img,
+.waypoints .block-content-center .left-text .ibutton,
+.waypoints .block-content-center h3,
+.waypoints .block-content-center p,
+.waypoints .block-content-center .right-text .ibutton,
+.waypoints .inwave-domain-check.style2 .heading-block,
+.waypoints .inwave-domain-check.style2 .list-domain-check,
+.waypoints .inwave-domain-check.no-top.style1,
+.waypoints .iw-tab-items,
+.waypoints .iw-tabs .vc_single_image-img,
+.waypoints .iw-tabs .contact-map,
+.waypoints .iw-tabs .tab-content-text,
+.waypoints .classes .filters,
+.waypoints .classes .element-item .item-info,
+.waypoints .profile-box.style2,
+.waypoints .profile-box.style3,
+.waypoints .iw-mailchimp-form.style2,
+.waypoints .iw-contact .control,
+.waypoints .iw-contact .btn-submit,
+.waypoints .iw-video .play-button i,
+.waypoints .iw-video .iw-video-content,
+.waypoints .iw-tabs .iw-accordion-item,
+.waypoints .service-provided h4,
+.waypoints .service-provided p,
+.waypoints .our-services .ibutton
+{
+    visibility: hidden;
+}
+.waypoints .dg-container .item{
+    visibility: inherit!important;
+}
+.waypoints .numbers-effect .wpb_column{
+    transform: translateX(-200px);
+}
+.waypoints .iw-av-banner.style1 .iw-av-image{
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition:all 0.5s ease;
+}
+.waypoints .iw-av-banner.style1 .iw-av-image img{
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition:all 0.5s ease 0.3s;
+    transition:all 0.5s ease 0.3s;
+}
+.waypoints .iw-av-banner.style1 .iw-av-price,
+.waypoints .iw-av-banner.style1 .iw-av-desc li,
+.waypoints .iw-av-banner.style1 .iw-av-title,
+.waypoints .iw-av-banner.style1 .iw-av-subtitle{
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+}
+.waypoints .iw-av-banner.style1 .ibutton{
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+}
+.waypoints .iw-av-banner.style1.show-info .iw-av-image{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+.waypoints .iw-av-banner.style1.show-info .iw-av-image img{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+.waypoints .iw-av-banner.style1.show-info .iw-av-price,
+.waypoints .iw-av-banner.style1.show-info .iw-av-desc li,
+.waypoints .iw-av-banner.style1.show-info .iw-av-title,
+.waypoints .iw-av-banner.style1.show-info .iw-av-subtitle{
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+}
+.waypoints .iw-av-banner.style1.show-info .ibutton{
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+}
