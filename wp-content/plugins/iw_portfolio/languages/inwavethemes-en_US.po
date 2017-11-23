@@ -1,0 +1,768 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolios Manager\n"
+"POT-Creation-Date: 2016-04-14 11:25+0700\n"
+"PO-Revision-Date: 2016-04-14 11:25+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/classes/portfolioBox.php:37
+msgid "Detail"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:40
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:43 iw_portfolio.php:65
+msgid "Extra Fields"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:146 includes/classes/portfolioBox.php:343
+#: includes/html.extrafield.edit.php:95 includes/html.extrafield.edit.php:117
+#: includes/html.settings.php:281
+msgid "Text"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:147 includes/classes/portfolioBox.php:264
+#: includes/html.extrafield.edit.php:132
+msgid "Value"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:157
+msgid "Quote"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:165 includes/classes/portfolioBox.php:168
+msgid "Portfolio url"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:204
+msgid "Add new images"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:263
+msgid "Field Name"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:342 includes/html.extrafield.edit.php:116
+msgid "URL"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:374 includes/classes/portfolioBox.php:572
+#: includes/functions.admin.php:140 includes/functions.admin.php:189
+#: includes/html.extrafield.edit.php:182
+msgid "Insert"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:388 includes/functions.admin.php:155
+#: includes/functions.admin.php:204 includes/html.extrafield.edit.php:196
+msgid "Image URL"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:438
+msgid "Create Gallery"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:446 includes/classes/portfolioBox.php:454
+#: includes/classes/portfolioBox.php:533 includes/classes/portfolioBox.php:535
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:492
+msgid "Save Gallery"
+msgstr ""
+
+#: includes/classes/portfolioBox.php:501
+msgid "Saving ..."
+msgstr ""
+
+#: includes/classes/portfolioBox.php:599
+msgid "Remove"
+msgstr ""
+
+#: includes/functions.admin.php:23
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr ""
+
+#: includes/functions.admin.php:24
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/functions.admin.php:25
+msgid "Portfolios"
+msgstr ""
+
+#: includes/functions.admin.php:26
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/functions.admin.php:27
+msgid "All Portfolios"
+msgstr ""
+
+#: includes/functions.admin.php:28
+msgid "View Item"
+msgstr ""
+
+#: includes/functions.admin.php:29
+msgid "Add new"
+msgstr ""
+
+#: includes/functions.admin.php:30 includes/html.extrafield.list.php:15
+msgid "Add New"
+msgstr ""
+
+#: includes/functions.admin.php:31
+msgid "Edit Item"
+msgstr ""
+
+#: includes/functions.admin.php:32
+msgid "Update Item"
+msgstr ""
+
+#: includes/functions.admin.php:33
+msgid "Search Item"
+msgstr ""
+
+#: includes/functions.admin.php:34
+msgid "Not found"
+msgstr ""
+
+#: includes/functions.admin.php:35
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/functions.admin.php:38
+msgid "iw_portfolio"
+msgstr ""
+
+#: includes/functions.admin.php:39
+msgid "Post Type Description"
+msgstr ""
+
+#: includes/functions.admin.php:81
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/functions.admin.php:83
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/functions.admin.php:86
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/functions.admin.php:87
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/functions.admin.php:88
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/functions.admin.php:89
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/functions.admin.php:90
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: includes/functions.admin.php:91
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: includes/functions.admin.php:92
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: includes/functions.admin.php:158 includes/functions.admin.php:210
+msgid "This image will be the thumbnail shown on the category page."
+msgstr ""
+
+#: includes/functions.admin.php:208
+msgid "Browse"
+msgstr ""
+
+#: includes/functions.admin.php:298
+msgid "Setting has been saved successfully"
+msgstr ""
+
+#: includes/functions.admin.php:300
+msgid "Error"
+msgstr ""
+
+#: includes/functions.admin.php:304
+msgid "Setting has been updated successfully"
+msgstr ""
+
+#: includes/functions.admin.php:306
+msgid "No change has been made"
+msgstr ""
+
+#: includes/functions.admin.php:315 includes/functions.admin.php:495
+msgid "No data send"
+msgstr ""
+
+#: includes/functions.admin.php:350
+msgid "- Please input name of field<br/>"
+msgstr ""
+
+#: includes/functions.admin.php:356
+msgid "- Please select a field type<br/>"
+msgstr ""
+
+#: includes/functions.admin.php:470
+msgid "Extrafield had been updated"
+msgstr ""
+
+#: includes/functions.admin.php:485
+msgid "Extrafield had been created"
+msgstr ""
+
+#: includes/functions.admin.php:642
+msgid "Delete row(s) success"
+msgstr ""
+
+#: includes/functions.admin.php:644
+msgid "Please select row(s) to delete"
+msgstr ""
+
+#: includes/functions.admin.php:661
+msgid "Deleted the row successfully"
+msgstr ""
+
+#: includes/functions.admin.php:663
+msgid "Please select a row to delete"
+msgstr ""
+
+#: includes/functions.front.php:85 themes/default/list_portfolios.flat.php:61
+#: themes/default/portfolio.php:98
+msgid "Project Information"
+msgstr ""
+
+#: includes/functions.front.php:88 themes/default/list_portfolios.flat.php:64
+#: themes/default/portfolio.php:101
+msgid "Project name"
+msgstr ""
+
+#: includes/functions.front.php:92 themes/default/list_portfolios.flat.php:68
+#: themes/default/portfolio.php:105
+msgid "Category"
+msgstr ""
+
+#: includes/functions.front.php:187
+#: themes/default/list_portfolios.flat.php:163
+#: themes/default/portfolio.php:200
+msgid "Share This"
+msgstr ""
+
+#: includes/functions.front.php:235 includes/functions.front.php:285
+msgid "Only registered users can vote. Please login to cast your vote"
+msgstr ""
+
+#: includes/functions.front.php:255 includes/functions.front.php:305
+msgid "You have already voted for this item"
+msgstr ""
+
+#: includes/functions.front.php:259 includes/functions.front.php:310
+msgid "Thanks for voting. You rock!!! ;o"
+msgstr ""
+
+#: includes/functions.front.php:263 includes/functions.front.php:314
+#: includes/utility.php:204
+#, php-format
+msgid "%d votes"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:66
+msgid "Edit Extrafield"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:67
+msgid "Add New Other"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:70
+msgid "Add new Extrafield"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:73 includes/html.settings.php:92
+msgid "Title"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:80
+msgid "Categories"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:87
+msgid "Type"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:91
+msgid "Textarea"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:92
+msgid "Link"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:93 includes/html.settings.php:280
+msgid "Image"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:94
+msgid "Measurement"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:96
+msgid "Dropdown list"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:97
+msgid "Date"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:106 includes/html.extrafield.edit.php:114
+#: includes/html.extrafield.edit.php:130 includes/html.extrafield.edit.php:140
+#: includes/html.extrafield.edit.php:148 includes/html.extrafield.edit.php:158
+#: includes/html.extrafield.edit.php:203
+msgid "Default value"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:108
+msgid "Some Text value here"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:133
+msgid "Unit"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:134
+msgid "Enter unit. Example: $, Kg, m2"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:142
+msgid "Text value"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:150
+msgid "VALUE|TEXT|1"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:151
+msgid ""
+"Multiple options are separated by newline with syntax: Value|Text|Selected(1 "
+"or 0). Example:<br />VALUE_1|TEXT_1|1<br />VALUE_2|TEXT_2|0<br />VALUE_3|"
+"TEXT_3|1"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:211
+msgid "Description"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:218
+msgid "Status"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:221
+msgid "Published"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:222
+msgid "Unpublished"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:234 includes/html.settings.php:383
+msgid "Save"
+msgstr ""
+
+#: includes/html.extrafield.list.php:14
+msgid "Extrafields"
+msgstr ""
+
+#: includes/html.extrafield.list.php:16
+msgid "Delete"
+msgstr ""
+
+#: includes/html.extrafield.list.php:33
+msgid "Assign to Category"
+msgstr ""
+
+#: includes/html.extrafield.list.php:70
+msgid "All"
+msgstr ""
+
+#: includes/html.extrafield.list.php:74 includes/html.settings.php:226
+#: includes/html.settings.php:236 includes/html.settings.php:247
+#: includes/html.settings.php:261 includes/html.settings.php:271
+#: includes/html.settings.php:325
+msgid "Yes"
+msgstr ""
+
+#: includes/html.extrafield.list.php:74 includes/html.settings.php:225
+#: includes/html.settings.php:235 includes/html.settings.php:246
+#: includes/html.settings.php:260 includes/html.settings.php:270
+#: includes/html.settings.php:324
+msgid "No"
+msgstr ""
+
+#: includes/html.settings.php:18
+msgid "Display Options"
+msgstr ""
+
+#: includes/html.settings.php:19
+msgid "Review Options"
+msgstr ""
+
+#: includes/html.settings.php:20
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/html.settings.php:26
+msgid "Theme Options"
+msgstr ""
+
+#: includes/html.settings.php:28
+msgid "Select theme"
+msgstr ""
+
+#: includes/html.settings.php:34
+msgid "Permalink settings"
+msgstr ""
+
+#: includes/html.settings.php:36
+msgid "Portfolio slug"
+msgstr ""
+
+#: includes/html.settings.php:43
+msgid "Categories slug"
+msgstr ""
+
+#: includes/html.settings.php:49
+#, php-format
+msgid ""
+"Please go to Settings -> %s, click save to flush rewrite rules and apply "
+"changes"
+msgstr ""
+
+#: includes/html.settings.php:49
+msgid "Permalink"
+msgstr ""
+
+#: includes/html.settings.php:50
+msgid "Listing options"
+msgstr ""
+
+#: includes/html.settings.php:52
+msgid "Portfolio listing limit"
+msgstr ""
+
+#: includes/html.settings.php:59
+msgid "Portfolio order"
+msgstr ""
+
+#: includes/html.settings.php:75
+msgid "Portfolio order direction"
+msgstr ""
+
+#: includes/html.settings.php:88
+msgid "Category order"
+msgstr ""
+
+#: includes/html.settings.php:91
+msgid "ID"
+msgstr ""
+
+#: includes/html.settings.php:98
+msgid "Category order direction"
+msgstr ""
+
+#: includes/html.settings.php:101
+msgid "Asc"
+msgstr ""
+
+#: includes/html.settings.php:102
+msgid "Desc"
+msgstr ""
+
+#: includes/html.settings.php:107 includes/html.settings.php:109
+msgid "Category layout"
+msgstr ""
+
+#: includes/html.settings.php:112
+msgid "Flat list"
+msgstr ""
+
+#: includes/html.settings.php:113
+msgid "Grid list"
+msgstr ""
+
+#: includes/html.settings.php:119
+msgid "Grid column"
+msgstr ""
+
+#: includes/html.settings.php:126
+msgid "Sub-categories"
+msgstr ""
+
+#: includes/html.settings.php:129 includes/html.settings.php:139
+msgid "Show"
+msgstr ""
+
+#: includes/html.settings.php:130 includes/html.settings.php:140
+msgid "Hide"
+msgstr ""
+
+#: includes/html.settings.php:136
+msgid "Portfolio"
+msgstr ""
+
+#: includes/html.settings.php:145
+msgid "Image options"
+msgstr ""
+
+#: includes/html.settings.php:147
+msgid "Large img processing"
+msgstr ""
+
+#: includes/html.settings.php:150 includes/html.settings.php:161
+msgid "Crop"
+msgstr ""
+
+#: includes/html.settings.php:151 includes/html.settings.php:162
+msgid "Resize"
+msgstr ""
+
+#: includes/html.settings.php:152 includes/html.settings.php:163
+msgid "Resize and Keep ratio"
+msgstr ""
+
+#: includes/html.settings.php:158
+msgid "Thumbnail img processing"
+msgstr ""
+
+#: includes/html.settings.php:169
+msgid "Crop position"
+msgstr ""
+
+#: includes/html.settings.php:172 includes/html.settings.php:352
+msgid "Center"
+msgstr ""
+
+#: includes/html.settings.php:173 includes/html.settings.php:348
+msgid "Top Left"
+msgstr ""
+
+#: includes/html.settings.php:174
+msgid "Top Middle"
+msgstr ""
+
+#: includes/html.settings.php:175 includes/html.settings.php:349
+msgid "Top Right"
+msgstr ""
+
+#: includes/html.settings.php:176 includes/html.settings.php:350
+msgid "Buttom Left"
+msgstr ""
+
+#: includes/html.settings.php:177
+msgid "Buttom Middle"
+msgstr ""
+
+#: includes/html.settings.php:178 includes/html.settings.php:351
+msgid "Buttom Right"
+msgstr ""
+
+#: includes/html.settings.php:184
+msgid "JPEG Quality"
+msgstr ""
+
+#: includes/html.settings.php:191
+msgid "Image width"
+msgstr ""
+
+#: includes/html.settings.php:198
+msgid "Image height"
+msgstr ""
+
+#: includes/html.settings.php:205
+msgid "Thumbnail width"
+msgstr ""
+
+#: includes/html.settings.php:212
+msgid "Thumbnail height"
+msgstr ""
+
+#: includes/html.settings.php:220
+msgid "Voting System"
+msgstr ""
+
+#: includes/html.settings.php:222
+msgid "Enable voting"
+msgstr ""
+
+#: includes/html.settings.php:232
+msgid "Allow guest votes"
+msgstr ""
+
+#: includes/html.settings.php:241
+msgid "Review System"
+msgstr ""
+
+#: includes/html.settings.php:243
+msgid "Enable Review"
+msgstr ""
+
+#: includes/html.settings.php:255
+msgid "Watermark System"
+msgstr ""
+
+#: includes/html.settings.php:257
+msgid "Watemark system"
+msgstr ""
+
+#: includes/html.settings.php:267
+msgid "Watemark on thumbnail"
+msgstr ""
+
+#: includes/html.settings.php:277
+msgid "WM type"
+msgstr ""
+
+#: includes/html.settings.php:288
+msgid "WM Text"
+msgstr ""
+
+#: includes/html.settings.php:295
+msgid "WM Font"
+msgstr ""
+
+#: includes/html.settings.php:298
+msgid "Arial"
+msgstr ""
+
+#: includes/html.settings.php:299
+msgid "Tahoma"
+msgstr ""
+
+#: includes/html.settings.php:300
+msgid "Times"
+msgstr ""
+
+#: includes/html.settings.php:301
+msgid "Verdana"
+msgstr ""
+
+#: includes/html.settings.php:307
+msgid "WM Font color"
+msgstr ""
+
+#: includes/html.settings.php:314
+msgid "WM Font Size"
+msgstr ""
+
+#: includes/html.settings.php:321
+msgid "WM Background"
+msgstr ""
+
+#: includes/html.settings.php:331
+msgid "WM Background color"
+msgstr ""
+
+#: includes/html.settings.php:338
+msgid "WM Image"
+msgstr ""
+
+#: includes/html.settings.php:345
+msgid "WM position"
+msgstr ""
+
+#: includes/html.settings.php:358
+msgid "WM Padding"
+msgstr ""
+
+#: includes/html.settings.php:365
+msgid "WM Opacity"
+msgstr ""
+
+#: includes/html.settings.php:372
+msgid "WM Rotate"
+msgstr ""
+
+#: includes/utility.php:37
+msgid "Select all"
+msgstr ""
+
+#: includes/utility.php:40
+msgid "Select category"
+msgstr ""
+
+#: includes/utility.php:183
+#, php-format
+msgid "%0.1f/5 (%d votes)"
+msgstr ""
+
+#: includes/utility.php:460
+msgid "Enter keyword..."
+msgstr ""
+
+#: iw_portfolio.php:64 iw_portfolio.php:67
+msgid "Portfolio Settings"
+msgstr ""
+
+#: iw_portfolio.php:66
+msgid "Add Extra Field"
+msgstr ""
+
+#: iw_portfolio.php:67
+msgid "Settings"
+msgstr ""
+
+#: themes/default/list_portfolios.flat.php:15
+msgid "All Categories"
+msgstr ""
+
+#: themes/default/list_portfolios.flat.php:200
+msgid "Load More"
+msgstr ""
+
+#: themes/default/list_portfolios.flat.php:204
+msgid "All loaded"
+msgstr ""
+
+#: themes/default/list_portfolios.php:24
+msgid "No portfolio was found"
+msgstr ""
+
+#: themes/default/portfolio.php:212
+msgid "Visit our work"
+msgstr ""
+
+#: themes/single-iw_portfolio.php:21 themes/taxonomy-iwp_category.php:38
+msgid "No theme was found"
+msgstr ""

@@ -1,0 +1,118 @@
+----- v1.0 ------------
+2015/07/31: Initial Release
+----- v1.0.1 ------------
+2015/08/05: Fixed: Page options saving issue
+2015/08/05: Upgraded: Login form popup
+----- v1.1.0 ------------
+2015/08/07: Upgraded: WHMCS v6.x
+2015/08/07: Compatible with Alternative PHP Cache (APC) 
+2015/08/07: Changed: Onepage footer description and copyright can be edited in theme options
+----- v1.2.0 ------------
+2015/08/12: Upgraded: Woocommerce v2.4.2
+2015/08/12: Fixed bug: Mega Menu demo content importing bug
+2015/08/12: Fixed issue: AdBlock browser addon doesn't allow to load adv-banner shortcodes and some background images
+2015/08/12: Fixed issue: Conflict with yith-woocommerce-wishlist plugin
+2015/08/12: Fixed WHMCS 6.x issue: Smarty template problem with css and js tags
+Note: If you upgrade from version inhost 1.0+, please go to the revolution sliders then change class of buttons to "ibutton" (see the screenshot http://prntscr.com/83pkk8)
+
+----- v2.0.0 (2015/08/24)------------
+- Fixed: Logo issue with https
+- Fixed: Retina issue
+- Fixed: Ajax domain search issue
+- Fixed: Misc styles & responsive errors
+- Fixed: RTL errors with WHMCS
+- Fixed: Frontend Visual Composer Editor not working properly (important update!!)
+- Added: more options for customization header & footer
+- Upgraded: Ajax demo data importing, you can select the data type to import (big change)
+- Upgraded: Woocommerce v2.4.5
+- Upgraded: Wordpress 4.3
+- Upgraded: WHMCS 6.0.2
+- Upgraded: Visual Composer 4.6.2
+
+----- v2.1.0 (2015/08/31) ------------
+- Upgraded: Visual Composer 4.7
+- Upgraded: Megamenu 2.1.0
+- Fixed: RTL issue
+- Fixed: Logo upload image issue
+- Fixed: Invalid WHMCS link in Check Domains Shortcode
+----- v2.2.0 (2015/09/10) ------------
+- Upgraded: Visual Composer 4.7.4
+- Upgraded: Megamenu 2.1.1
+- Upgraded: Woocommerce 2.4.7
+- Updated: Quick access login form
+- Fixed: Header background in blog page
+----- v2.3.0 (2015/09/10) ------------
+- Fixed: WHMCS Order form error
+- Fixed: Bootstrap conflict
+- Upgraded: Standalone domain checker shortcode
+- Upgraded: Woocommerce 2.4.10 & Visual Composer 4.8.1
+
+- Added: Cache custom css to file
+
+----- v3.0 (2015/12/24) ------------
+- Fixed: Misc bugs
+- Upgraded: Support WHMPress & Client Area Addon
+- Upgraded: Sync login & cart
+- Upgraded: WHMCS 6.2
+- Upgraded: Visual Composer 4.9
+
+----- v3.0.1 (2015/12/28) ------------
+- Upgraded: Visual Composer 4.9.1
+- Fixed: Error when activating the theme
+
+----- Version 3.1 – 29/01/2016 ------------
+- Upgraded: Visual Composer 4.9.2
+- Upgraded: Woocommerce 2.5.2
+- Fixed: WHMCS Template bug
+- Removed: WHMPress & Client Area Addons plugins bundled in theme package
+
+----- Version 3.2 – 09/03/2016 ------------
+- Upgraded: Visual Composer 4.10
+- Upgraded: WHMCS Template latest version v6.2.2 (Important update)
+- Improved: Loading speed of WHMCS
+- Added: WHMCS Order form cloud slider
+- Improved: documentation
+
+----- Version 3.3 – 10/03/2016 ------------
+- Upgraded: Revolution Slider v5.2.1 (better performance & more mobile-friendly)
+- Added: Home shortcuts menu for WHMCS template
+
+----- Version 3.3.1 – 15/03/2016 ------------
+- Fixed bug: mobile footer style, Header style v1+v2 with full width dropdown menu
+- Fixed bug: Home search domain button
+- Added: target="blank" into social links
+- Upgraded: Visual Composer 4.11
+- Upgraded: Revolution Slider v5.2.2
+
+----- Version 3.3.2 – 19/03/2016 ------------
+- Upgraded: Visual Composer 4.12
+- Added: jquery-migrate to prevent jquery conflict issue
+- Fixed: WHMCS Template bug
+- Fixed: Login button issue with WHMCS Client Area Standalone plugin
+
+----- Version 3.4.0 – 14/04/2016 ------------
+- Updated: Revolution Slider 5.2.4.1
+- Updated: Visual Composer 4.11.2
+- Upgraded: Megamenu 2.1.2
+- Updated: Wordpress 4.5
+- Updated: WMPL Config
+- Removed: jQuery fn.live
+- Fixed: Domain checker issue with Client Area Standalone plugin
+- Fixed: Misc bugs
+
+----- Version 3.5.0 – 22/04/2016 ------------
+- Fixed: Login popup flashing
+- Upgraded: Megamenu 2.1.2.1
+- Upgraded: Visual Composer 4.11.2.1
+- Upgraded: Revolution Slider 5.2.5
+- Supported: WHMCS v6.3
+- Added: Submenu default line
+- Improved: Phone & email validation for contact form
+
+----- Version 3.5.2 – 08/06/2016 ------------
+- Added: Child theme layout overriding
+- Added: Importing data system requirements
+- Improved: Domain checking function
+- Upgraded: WHMCS v6.3.1, Revolution Slider 5.2.5.3, Visual Composer 4.12
+- Fixed: Backend shortcode popup height
+- Fixed: Admin tab style issue

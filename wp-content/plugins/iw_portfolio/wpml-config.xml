@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">portfolio_base_info</custom-field>
+        <custom-field action="translate">portfolio_image_gallery</custom-field>
+        <custom-field action="translate">portfolio_extra_fields</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">iw_portfolio</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">iwp_category</taxonomy>
+    </taxonomies>
+</wpml-config>

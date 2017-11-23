@@ -1,0 +1,607 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2014, 1:33:49 PM
+    Author     : duongca
+*/
+
+/*----- Tabs -----*/
+#iwc .tabs {
+    width:100%;
+    display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+#iwc .tab-links:after {
+    display:block;
+    clear:both;
+    content:'';
+}
+
+#iwc .tab-links li {
+    margin:0px 5px;
+    float:left;
+    list-style:none;
+}
+
+#iwc .tab-links a {
+    padding:9px 15px;
+    display:inline-block;
+    border-radius:3px 3px 0px 0px;
+    background:#7FB5DA;
+    font-size:16px;
+    font-weight:600;
+    color:#4c4c4c;
+    transition:all linear 0.15s;
+}
+
+#iwc .tab-links a:hover {
+    background:#a7cce5;
+    text-decoration:none;
+}
+
+#iwc li.active a, #iwc li.active a:hover {
+    background:#fff;
+    color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+#iwc .tab-content {
+    padding:15px;
+    border-radius:3px;
+    box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+    background:#fff;
+}
+
+#iwc .tab {
+    display:none;
+}
+
+#iwc .tab.active {
+    display:block;
+}
+
+/*Message*/
+#iwc .bt-message {
+    border: 1px solid;
+    border-left: solid 4px;
+    margin: 15px 0px !important;
+    padding: 10px !important;
+}
+#iwc .bt-message .message-text{
+    margin-left: 35px;
+}
+
+#iwc .bt-message.success {
+    border-color: #1e6a8d;
+    background: url('../images/success.png') no-repeat 10px center #a7cce5;
+}
+#iwc .bt-message.error {
+    border-color: #dd3d36;
+    background: url('../images/error.png') no-repeat 10px center #F2DEDE;
+}
+#iwc .bt-message.notice {
+    border-color: #c0cd7b;
+    background: url('../images/notice.png') no-repeat 10px center #fff9c0;
+}
+
+/*End message style*/
+
+/*Start form style*/
+#iwc h3.header-text{
+    text-transform: uppercase;
+}
+
+#iwc .control-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#iwc .control-group .label {
+    float: left;
+    font-weight: bold;
+    max-width: 300px;
+    min-width: 200px;
+    width: 30%;
+}
+
+.control-group .control {
+    float: left;
+    min-width: 300px;
+    width: 70%;
+}
+
+#iwc .control-group select, #iwc .control-group input{
+    min-width: 200px;
+}
+
+
+/*FE*/
+#iwc .bt-portfolio-filterable-filter {
+    color: #FFF;
+}
+#iwc .bt-portfolio-filterable-filter ul {
+    padding: 0;
+    margin: 0 !important;
+    display: inline;
+}
+#iwc .bt-portfolio-filterable-filter li {
+    cursor: pointer;
+    display: table-cell;
+    padding: 10px 15px;
+    background-color: rgba(0,0,0,0.9);
+}
+#iwc .bt-portfolio-filterable-filter li.active {
+    background: #259b9a !important;
+}
+
+#bt-portfolio-filterable-grid{
+    position: relative;
+}
+#bt-portfolio-filterable-grid .mix{
+    display: none;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+#iwc ul.bt-portfolio-gallery-thumbnail li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#iwc .iw_portfolio .box_skitter .label_skitter {
+    background: none repeat scroll 0 0 transparent !important;
+    display: none;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    z-index: 101 !important;
+}
+
+#iwc .iw_portfolio .box_skitter .label_skitter:hover{
+    display: block !important;
+}
+
+#iwc .btp-grid-item {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#iwc .p-filter input, #iwc .p-filter textarea, #iwc .p-filter select {
+    padding: 0.7em;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 1.0em;
+    color: #333;
+    font-family: 'Droid Sans', Tahoma, Verdana, Arial;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#iwc .p-filter input.p-first-input{
+    margin-left: 0;
+}
+
+
+
+#classes.teachers, #classes.teachers .our-class-main{
+    padding-top: 0;
+}
+
+.btp-detail-voting{
+    display: inline-block;
+    float: right;
+    text-align: right;
+    width: 50%
+}
+
+.btp-detail-voting .btp-rating-background:before {
+    font-family: star;
+    content: "sssss";
+}
+.btp-detail-voting .btp-rating-background {
+    float: right;
+    height: 20px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 63px;
+    position: relative;
+}
+
+.btp-detail-voting .btp-rating-notice{
+    float: right;
+    margin-left: 3px;
+    line-height: 28px;
+}
+
+.btp-rating-background span:before {
+    top: 0;
+    font-family: star;
+    content: "SSSSSS";
+}
+.btp-rating-background span{
+    position: absolute;
+    color: transparent;
+    left: 0;
+    overflow: hidden;
+    cursor:pointer;
+    top: 0;
+}
+.btp-rating-background span:hover {
+    color: #fff;
+}
+.btp-rating-current:before {
+    font-family: star;
+    content: "SSSSS";
+}
+.btp-rating-current {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.img-trainer > img {
+    border-radius: 50%;
+    height: 91px;
+    width: 93px;
+}
+
+.class-detail .class-info .portfolio{
+    cursor: pointer;
+    color: #ec3642;
+}
+.class-detail .class-info .portfolio:hover{
+    color: #fff;
+}
+
+#take-this-portfolio{
+    background: #212121;
+    color: #fff;
+    padding: 13px 20px;
+}
+#take-this-portfolio .take-header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+#take-this-portfolio .take-left, #take-this-portfolio .take-right{
+    float: left;
+    width: 50%;
+}
+#take-this-portfolio .take-left{
+    text-align: left;
+    position: relative;
+}
+#take-this-portfolio .take-right{
+    text-align: right;
+}
+#take-this-portfolio .take-right input{
+    width: 100%;
+    background: #F42F46;
+}
+#take-this-portfolio input{
+    background: none repeat scroll 0 0 #232323;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    width: 93%;
+}
+#take-this-portfolio input.disabled{
+    background:#2C2C2C;
+    color: #585858;
+}
+#take-this-portfolio textarea{
+    background: none repeat scroll 0 0 #232323;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 150px;
+}
+
+.take-left span {
+    position: absolute;
+    right: 32px;
+    top: 7px;
+}
+
+.banner-details .portfolio-slider{
+    position: relative;
+}
+
+.owl-buttons .owl-prev{
+    left: 15px;
+}
+
+
+.owl-buttons .owl-prev,
+.owl-buttons .owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -mz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    background: #1F1F1F!important;
+    padding: 3px 13px !important;
+}
+.owl-buttons .owl-next{
+    right: 15px;
+}
+
+/*Portfolio Relate*/
+
+.portfolio-relate{
+	margin: 60px 0px;
+}
+
+.portfolio-relate .title,
+.portfolio-relate .sub_title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.portfolio-relate .image{
+    position: relative;
+}
+
+.portfolio-relate .control-overlay span {
+    background: #7b7671 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.portfolio-relate .image span.info {
+    padding: 5px 15px;
+    left: 10px;
+}
+.portfolio-relate .image span.preview {
+    padding: 5px 10px;
+    left: 50px;
+}
+.portfolio-relate .image img {
+    width: 100%;
+}
+
+.portfolio-relate .control-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s linear;
+    opacity: 0;
+}
+
+.portfolio-relate .post_item.active .control-overlay{
+    opacity: 1;
+}
+
+.portfolio-relate .port_title {
+    padding: 30px 20px;
+    background: #f2f2f2;
+    font-size: 18px;
+    text-transform: uppercase;
+    -webkit-transition:all 0.35s;
+    transition: all 0.35s;
+}
+.portfolio-relate .post_item.active .port_title {
+    color: #FFF;
+}
+.portfolio-relate .post_item {
+    padding-top: 15px;
+}
+
+.portfolio-relate .sub_title {
+    font-size: 16px;
+    color: #CECECE;
+}
+.portfolio-relate .title {
+    font-size: 30px;
+    margin: 15px 0 50px 0;
+    color: #828282;
+}
+.portfolio-relate .title span {
+    font-weight: bold;
+    color: #838385;
+}
+
+.class-info-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.iwp-ifo-item .fname{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+    min-width: 150px;
+}
+.iwp-ifo-item .ftext{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.project-information {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #eeeeee;
+}
+
+.iwp-ifo-item, .class-info-title {
+    border-bottom: 1px solid #ececec;
+    padding: 7px 0 1px;
+    margin: 0 13px;
+}
+
+.project-information .share {
+    background: #ffffff none repeat scroll 0 0;
+    border-top: 1px solid #ececec;
+    margin-top: 30px;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.project-information .share .share-title {
+    text-transform: uppercase;
+    float: left;
+}
+.project-information .share .social-icon {
+    float: right;
+    margin-top: 5px;
+}
+
+.project-information .share .social-icon a {
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    margin-left: 5px;
+    padding-top: 6px;
+    text-align: center;
+    width: 40px;
+    background: #F8F8F8;
+    color: #767676;
+}
+.project-information .share .social-icon a:hover {
+    color: #fff;
+	border-color: transparent;
+}
+
+.visit-project {
+    border: 2px solid;
+    height: 60px;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.visit-project a {
+    font-size: 24px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100%;
+    top: 17px;
+
+}
+.visit-project a:active,
+.visit-project a:hover,
+.visit-project a:link,
+.visit-project a:focus{
+    text-decoration: none;
+}
+
+.port_title a,
+.port_title a:active,
+.port_title a:link{
+    color: #838383;
+}
+
+
+.post_item.active .port_title a,
+.post_item.active .port_title a:hover,
+.post_item.active .port_title a:active,
+.post_item.active .port_title a:link{
+    color: #FFF;
+}
+
+.project-quote {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 20px;
+	line-height:200%;
+}
+.project-quote::before {
+    content: '"';
+    font-size: 30px;
+    font-style: italic;
+}
+
+#load-more-class{
+    border: solid 2px #E8E8E8;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    background: #fff;
+}
+
+.classes .load-product{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.classes .our-class-main{
+    margin-top: 15px;
+}
+
+#filters button{
+    background: #fff;
+    border-radius: 22px;
+    border: solid 2px transparent;
+    height: 35px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.portfolio-relate .item-info .image{
+    position: relative;
+    overflow: hidden;
+    background: #000 none repeat scroll 0 0;
+}
+
+.portfolio-relate .item-info .image img {
+    opacity: 1;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+}
+.portfolio-relate .item-info .image .control-overlay::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.12);
+    content: '';
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+.portfolio-relate .item-info:hover img {
+    opacity: 0.3;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+.portfolio-relate .item-info:hover .image .control-overlay::before{
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,110%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,110%,0);
+}
+.portfolio-relate .item-info:hover .control-overlay span{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
